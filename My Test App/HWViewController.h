@@ -10,4 +10,9 @@
 
 @interface HWViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *myButton;
+
+
+- (IBAction)showAlert:(id)sender;
+
 @end

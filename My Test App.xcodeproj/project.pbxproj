@@ -21,6 +21,7 @@
 		127BE41C18B6D4FE00843083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127BE3FE18B6D4FE00843083 /* UIKit.framework */; };
 		127BE42418B6D4FE00843083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127BE42218B6D4FE00843083 /* InfoPlist.strings */; };
 		127BE42618B6D4FE00843083 /* My_Test_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127BE42518B6D4FE00843083 /* My_Test_AppTests.m */; };
+		127BE47418B6FF2D00843083 /* IMG_6037.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 127BE47318B6FF2D00843083 /* IMG_6037.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		127BE42118B6D4FE00843083 /* My Test AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Test AppTests-Info.plist"; sourceTree = "<group>"; };
 		127BE42318B6D4FE00843083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		127BE42518B6D4FE00843083 /* My_Test_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Test_AppTests.m; sourceTree = "<group>"; };
+		127BE47118B6FD3B00843083 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		127BE47218B6FD3B00843083 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		127BE47318B6FF2D00843083 /* IMG_6037.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6037.JPG; path = ../../../IMG_6037.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				127BE40918B6D4FE00843083 /* HWAppDelegate.h */,
 				127BE40A18B6D4FE00843083 /* HWAppDelegate.m */,
 				127BE40C18B6D4FE00843083 /* Main.storyboard */,
+				127BE47118B6FD3B00843083 /* MyClass.h */,
+				127BE47218B6FD3B00843083 /* MyClass.m */,
 				127BE40F18B6D4FE00843083 /* HWViewController.h */,
 				127BE41018B6D4FE00843083 /* HWViewController.m */,
 				127BE41218B6D4FE00843083 /* Images.xcassets */,
@@ -126,6 +132,7 @@
 		127BE40118B6D4FE00843083 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				127BE47318B6FF2D00843083 /* IMG_6037.JPG */,
 				127BE40218B6D4FE00843083 /* My Test App-Info.plist */,
 				127BE40318B6D4FE00843083 /* InfoPlist.strings */,
 				127BE40618B6D4FE00843083 /* main.m */,
@@ -232,6 +239,7 @@
 				127BE41318B6D4FE00843083 /* Images.xcassets in Resources */,
 				127BE40518B6D4FE00843083 /* InfoPlist.strings in Resources */,
 				127BE40E18B6D4FE00843083 /* Main.storyboard in Resources */,
+				127BE47418B6FF2D00843083 /* IMG_6037.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +469,7 @@
 				127BE42B18B6D4FE00843083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		127BE42C18B6D4FE00843083 /* Build configuration list for PBXNativeTarget "My Test AppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				127BE42E18B6D4FE00843083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
