@@ -7,12 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HWErrorHandler.h"
 
 @interface HWViewController : UIViewController
+
 
 @property (weak, nonatomic) IBOutlet UIButton *myButton;
 
 
 - (IBAction)showAlert:(id)sender;
+
+- (IBAction)fakeFatalError:(id)sender;
+
+- (IBAction)fakeNonFatalError:(id)sender;
+
 
 @end

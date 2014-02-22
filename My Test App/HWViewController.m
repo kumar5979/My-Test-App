@@ -32,4 +32,36 @@
     [msgView show];
 }
 
+
+
+- (IBAction)fakeNonFatalError:(id)sender {
+    
+    NSString *description = @"Connection Error";
+    NSString *failureReason = @"Can't seem to get a connection";
+    NSArray *recoveryOptions = @[@"Retry"];
+    NSString *recoverySuggestion = @"Check your WiFi settings and retry";
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObjects:@[description,failureReason,recoveryOptions,recoverySuggestion,self] forKeys:@[NSLocalizedDescriptionKey,NSLocalizedFailureReasonErrorKey,NSLocalizedRecoverySuggestionErrorKey,NSLocalizedRecoverySuggestionErrorKey,NSRecoveryAttempterErrorKey]];
+    
+    NSError *error = [[NSError alloc] initWithDomain:@"Kumar First Error Handler program" code:42
+                                            userInfo:userInfo];
+    
+    [HWErrorHandler handleError:error fatal:YES];
+    
+}
+
+-(BOOL)attemptRecoveryFromError:(NSError *)error optionIndex:(NSUInteger)recoveryOptionIndex
+{
+    return NO;
+}
+
+-(IBAction)fakeFatalError:(id)sender
+{
+    NSString *description = @"Data Error";
+    NSString *failureReason = @"Data is Corrupt.The app must shut down";
+    NSString *recoverySuggestion = @"Contact support!";
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:@[description,failureReason,recoverySuggestion] forKey:@[NSLocalizedDescriptionKey,NSLocalizedFailureReasonErrorKey,NSLocalizedRecoveryOptionsErrorKey]];
+    
+    NSError *error = [[NSError alloc] initWithDomain:@"Kumar Fatal Error Handler program" code:22 userInfo:userInfo];
+    [HWErrorHandler handleError:error fatal:YES];
+}
 @end

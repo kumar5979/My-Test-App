@@ -21,7 +21,8 @@
 		127BE41C18B6D4FE00843083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127BE3FE18B6D4FE00843083 /* UIKit.framework */; };
 		127BE42418B6D4FE00843083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127BE42218B6D4FE00843083 /* InfoPlist.strings */; };
 		127BE42618B6D4FE00843083 /* My_Test_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127BE42518B6D4FE00843083 /* My_Test_AppTests.m */; };
-		127BE47418B6FF2D00843083 /* IMG_6037.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 127BE47318B6FF2D00843083 /* IMG_6037.JPG */; };
+		12AEA54918B82B3900C64C58 /* agua_png_by_eross_666-d56zryo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AEA54818B82B3900C64C58 /* agua_png_by_eross_666-d56zryo.png */; };
+		12AEA54F18B82C6D00C64C58 /* HWErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AEA54E18B82C6D00C64C58 /* HWErrorHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,9 @@
 		127BE42518B6D4FE00843083 /* My_Test_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Test_AppTests.m; sourceTree = "<group>"; };
 		127BE47118B6FD3B00843083 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		127BE47218B6FD3B00843083 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
-		127BE47318B6FF2D00843083 /* IMG_6037.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6037.JPG; path = ../../../IMG_6037.JPG; sourceTree = "<group>"; };
+		12AEA54818B82B3900C64C58 /* agua_png_by_eross_666-d56zryo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "agua_png_by_eross_666-d56zryo.png"; path = "../../../agua_png_by_eross_666-d56zryo.png"; sourceTree = "<group>"; };
+		12AEA54D18B82C6D00C64C58 /* HWErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWErrorHandler.h; path = ../HWErrorHandler.h; sourceTree = "<group>"; };
+		12AEA54E18B82C6D00C64C58 /* HWErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWErrorHandler.m; path = ../HWErrorHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				127BE40918B6D4FE00843083 /* HWAppDelegate.h */,
 				127BE40A18B6D4FE00843083 /* HWAppDelegate.m */,
 				127BE40C18B6D4FE00843083 /* Main.storyboard */,
+				12AEA54D18B82C6D00C64C58 /* HWErrorHandler.h */,
+				12AEA54E18B82C6D00C64C58 /* HWErrorHandler.m */,
 				127BE47118B6FD3B00843083 /* MyClass.h */,
 				127BE47218B6FD3B00843083 /* MyClass.m */,
 				127BE40F18B6D4FE00843083 /* HWViewController.h */,
@@ -132,7 +137,7 @@
 		127BE40118B6D4FE00843083 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				127BE47318B6FF2D00843083 /* IMG_6037.JPG */,
+				12AEA54818B82B3900C64C58 /* agua_png_by_eross_666-d56zryo.png */,
 				127BE40218B6D4FE00843083 /* My Test App-Info.plist */,
 				127BE40318B6D4FE00843083 /* InfoPlist.strings */,
 				127BE40618B6D4FE00843083 /* main.m */,
@@ -238,8 +243,8 @@
 			files = (
 				127BE41318B6D4FE00843083 /* Images.xcassets in Resources */,
 				127BE40518B6D4FE00843083 /* InfoPlist.strings in Resources */,
+				12AEA54918B82B3900C64C58 /* agua_png_by_eross_666-d56zryo.png in Resources */,
 				127BE40E18B6D4FE00843083 /* Main.storyboard in Resources */,
-				127BE47418B6FF2D00843083 /* IMG_6037.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 			files = (
 				127BE41118B6D4FE00843083 /* HWViewController.m in Sources */,
 				127BE40718B6D4FE00843083 /* main.m in Sources */,
+				12AEA54F18B82C6D00C64C58 /* HWErrorHandler.m in Sources */,
 				127BE40B18B6D4FE00843083 /* HWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
