@@ -61,7 +61,7 @@
     NSString *recoverySuggestion = @"Contact support!";
     NSDictionary *userInfo = [NSDictionary dictionaryWithObject:@[description,failureReason,recoverySuggestion] forKey:@[NSLocalizedDescriptionKey,NSLocalizedFailureReasonErrorKey,NSLocalizedRecoveryOptionsErrorKey]];
     
-    NSError *error = [[NSError alloc] initWithDomain:@"Kumar Fatal Error Handler program" code:22 userInfo:userInfo];
+    NSError *error = [[NSError alloc] initWithDomain:@"Kumar Fatal Error Handler program" code:21 userInfo:userInfo];
     [HWErrorHandler handleError:error fatal:YES];
 }
 @end
